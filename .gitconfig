@@ -1,0 +1,7 @@
+# Add these to user .gitconfig file (on Windows C:\Users\{user}\.gitconfig)
+
+[alias]
+	cod = checkout develop
+	cob = checkout -b
+	cam = commit -am
+	pushup = !git push --set-upstream origin $(git symbolic-ref --short HEAD)
